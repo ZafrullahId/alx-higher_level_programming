@@ -2,9 +2,10 @@
 # printing from a list
 # Zafrullah Idris
 
-def print_list_integer(my_list):      
-    for n in my_list:
-        print("{}".format(n))
+def print_list_integer(my_list=[]):
+    """print all in the list"""
+    for n in range(len(my_list)):
+        print("{}".format(my_list[n]))
 
 
 my_list = [1, 2, 3, 4, 5]
