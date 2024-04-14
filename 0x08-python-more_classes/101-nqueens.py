@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 # 101-nqueens.py
 # Zafrullah )
-"""Solves the N-queens puzzle
+"""Solves the N-queens puzzle.
 
-Determines all possible solutions to placing N non-attacking queens on an NxN chessboard.
+Determines all possible solutions to placing N
+N non-attacking queens on an NxN chessboard.
 
 Example:
     $ ./101-nqueens.py N
